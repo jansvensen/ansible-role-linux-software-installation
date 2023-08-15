@@ -1,5 +1,5 @@
 ---
-- name: Install prerequisites
+- name: Install software via apt
   become: true
   ansible.builtin.apt:  
     name: '{{ item }}'
