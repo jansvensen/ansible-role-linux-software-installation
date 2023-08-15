@@ -4,4 +4,4 @@
   ansible.builtin.apt:  
     name: '{{ item }}'
     state: present
-  with_items: '{{ linux_docker_prerequisites }}'
+  with_items: '{{ linux_software_apt }}'
